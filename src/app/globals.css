@@ -146,3 +146,7 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
 img.aspect-square.h-full.w-full {
   object-fit: contain;
 }
+
+.max-w-2xl {
+  max-width:  62em !important;
+}
