@@ -80,7 +80,7 @@ export const DATA = {
       badges: [],
       location: "Vadodara",
       title: "Full Stack Developer",
-      logoUrl: "/uci.png",
+      logoUrl: "/UCI.png",
       start: "Aug 2024",
       end: "Current",
       description:
