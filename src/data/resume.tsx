@@ -144,38 +144,10 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "ForMS 3.0 (NYC Parks Dept POC )",
-      href: "#",
-      dates: "Jan 2023 - May 2023",
-      active: true,
-      description:
-        "Forestry Management System 3.0 software dashboard POC developed for NYC Parks Department . Screens for senior forest officer to track Service Requests based on GIS and Track pending work-orders",
-      technologies: [
-        "React",
-        "ContextAPI",
-        "Axios",
-        "C#",
-        "Azure",
-      ],
-      links: [
 {
-          type: "Website",
-          href: "https://nyc-parks-dept-dashboard.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/mahir-barot/nyc-parks-dept-dashboard",
-          icon: <Icons.github className="size-3" />,
-        },],
-      image: "",
-      video: "./nyc-demo.mp4",
-    },
-    {
         title: "ResumeRocket AI",
         href: "#",
-        dates: "Jun 2023 - Present",
+        dates: "Feb 2025 - March 2025",
         active: true,
         description:
           "Developed an AI-powered tool to extract text from PDFs using OCR technology, enabling users to convert PDF documents into editable text seamlessly.",
@@ -200,6 +172,35 @@ export const DATA = {
         image: "",
         video: "./rocketresume-demo.mp4",
       },
+    
+    {
+      title: "ForMS 3.0 (NYC Parks Dept POC )",
+      href: "#",
+      dates: "Nov 2024 - Jan 2025",
+      active: true,
+      description:
+        "Forestry Management System 3.0 software dashboard POC developed for NYC Parks Department . Screens for senior forest officer to track Service Requests based on GIS and Track pending work-orders",
+      technologies: [
+        "React",
+        "ContextAPI",
+        "Axios",
+        "C#",
+        "Azure",
+      ],
+      links: [
+{
+          type: "Website",
+          href: "https://nyc-parks-dept-dashboard.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/mahir-barot/nyc-parks-dept-dashboard",
+          icon: <Icons.github className="size-3" />,
+        },],
+      image: "",
+      video: "./nyc-demo.mp4",
+    },
       {
         title: "Neuralbee SAAS",
         href: "#",
