@@ -158,7 +158,17 @@ export const DATA = {
         "C#",
         "Azure",
       ],
-      links: [],
+      links: [
+{
+          type: "Website",
+          href: "https://nyc-parks-dept-dashboard.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/mahir-barot/nyc-parks-dept-dashboard",
+          icon: <Icons.github className="size-3" />,
+        },],
       image: "",
       video: "./nyc-demo.mp4",
     },
