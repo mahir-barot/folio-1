@@ -177,16 +177,16 @@ export const DATA = {
           "Firebase",
           "Streamlit",
         ],
-        links: [{
-    icon: 🌐, // Replace with actual icon component
-    type: "Website",
-    href: "https://resumerocket-ai.vercel.app/"
-  },
-  {
-    icon: 🌐, // Replace with actual icon component
-    type: "GitHub",
-    href: "https://github.com/mahir-barot/resumerocket"
-  }],
+        links: [ {
+          type: "Website",
+          href: "https://resumerocket-ai.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/mahir-barot/resumerocket",
+          icon: <Icons.github className="size-3" />,
+        },],
         image: "",
         video: "./rocketresume-demo.mp4",
       },
